@@ -1,0 +1,21 @@
+h1 {
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.name {
+    color: orange;
+}
+
+section {
+    display: flex;
+    padding-left: 20px;
+}
+
+.half {
+    width: 50%;
+}
+
+.half img {
+    width: 40%;
+}
