@@ -1,6 +1,11 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+}
+
 h1 {
+    color: blue;
     font-size: 40px;
-    font-family: 'Courier New', Courier, monospace;
 }
 
 .name {
@@ -9,13 +14,33 @@ h1 {
 
 section {
     display: flex;
-    padding-left: 20px;
+
 }
 
 .half {
     width: 50%;
+    padding-left: 5%;
+
+}
+
+.half p {
+    font-weight: 500;
 }
 
 .half img {
-    width: 40%;
+    width: 60%;
+}
+
+.link {
+    text-decoration: none;
+    background-image: linear-gradient(orange, red);
+    border-radius: 5px;
+    color: white;
+    padding: 10px 40px;
+    font-weight: 700;
+}
+
+.banner {
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
 }
